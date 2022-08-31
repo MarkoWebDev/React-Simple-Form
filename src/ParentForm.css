@@ -1,0 +1,35 @@
+.form-section {
+  display: grid;
+  height: 100vh;
+  background-color: gray;
+  place-items: center;
+}
+.form-group {
+  background-color: #fff;
+  padding: 55px;
+  width: 100%;
+  border-radius: 10px;
+}
+.form {
+  display: grid;
+  grid-template-columns: 200px 250px;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+.gender {
+  align-items: center;
+  justify-content: center;
+}
+.form-buttons {
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+  justify-content: center;
+}
+.form-submit {
+  margin-right: 55px;
+}
+.error {
+  color: red;
+}
